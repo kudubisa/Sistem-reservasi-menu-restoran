@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#51C3C4"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginBottom="50dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edEmail"
+            android:hint="Email"
+            android:text=""/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edPassword1"
+            android:layout_below="@id/edEmail"
+            android:text=""
+            android:hint="Password"
+            android:lines="1"
+            android:password="true" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edPassword2"
+            android:layout_below="@id/edPassword1"
+            android:text=""
+            android:hint="Password Konfirmasi"
+            android:lines="1"
+            android:password="true" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/edPassword2"
+            android:id="@+id/edNama"
+            android:hint="Nama Lengkap"
+            android:text=""/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/edNama"
+            android:id="@+id/edAlamat"
+            android:hint="Alamat"
+            android:text=""/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/edAlamat"
+            android:id="@+id/edNoTelp"
+            android:hint="No Telp"
+            android:text=""
+            android:inputType="number"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/btn_default"
+            android:drawableLeft="@android:drawable/ic_menu_send"
+            android:textColor="#3BA790"
+            android:id="@+id/btRegsiter"
+            android:text="Register"
+            android:layout_below="@+id/edNoTelp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:maxWidth="220dp"
+            android:gravity="center"
+            android:lines="2"
+            android:text="Nikmati berbagai penawaran dan voucher diskon menarik setelah anda mendaftar"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+</LinearLayout><!-- From: file:/C:/Users/Andrya/AndroidStudioProjects/android-beacon-library-reference-master/app/src/main/res/layout/fragment_register.xml -->

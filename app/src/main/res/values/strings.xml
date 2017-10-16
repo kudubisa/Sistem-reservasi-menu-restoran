@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Bale Rasa v1</string>
+    <string-array name="array_menu1">
+        <item>Home</item>
+        <item>Login</item>
+        <item>Register</item>
+    </string-array>
+    <string-array name="array_menu2">
+        <item>Home</item>
+        <item>Pengaturan Pengguna</item>
+        <item>Menu Restoran</item>
+        <item>Logout</item>
+    </string-array>
+    <string name="prompt">Pilih Meja</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>

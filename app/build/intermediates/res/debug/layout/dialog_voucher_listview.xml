@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/voucherList"
+        tools:listitem="@layout/voucher_custom_listview"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp">
+
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_default"
+                    android:drawableLeft="@android:drawable/ic_menu_revert"
+                    android:textColor="#3BA790"
+                    android:id="@+id/btKembali"
+                    android:text="Kembali" />
+
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Andrya/AndroidStudioProjects/android-beacon-library-reference-master/app/src/main/res/layout/dialog_voucher_listview.xml -->

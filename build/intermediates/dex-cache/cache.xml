@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-integration\2.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="32c0545546faa0e65a67bba8abc072b1aef5b136">
+        <dex dex="C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\classes-3584e427acf2057f8fcd87b4649375620f801107.jar" />
+    </item>
+    <item
+        jar="C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\classes-a41761dee39c42973517c60fddd80760e8fdc3bb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Andrya\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-fb8c6cf7832bfe1c697a737e4c0e8941b6a5a8e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\exploded-aar\com.embarkmobile\zxing-android-minimal\2.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="cb9bbd4a4737c5d1720f03efe7de98df3a924ef1">
+        <dex dex="C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\classes-5c858b264182c4558be3c25ab1c2e6b5c9225626.jar" />
+    </item>
+    <item
+        jar="C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\exploded-aar\org.altbeacon\android-beacon-library\2.1.4\classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="fc2b4fa86d40b71af744611751543dfe079eff58">
+        <dex dex="C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\classes-0dcb3466a24ad8e19414e23ead5c150f65cd18e0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-912058ab9e28a59409769f2ef041a69b579a5460.jar" />
+    </item>
+    <item
+        jar="C:\Users\Andrya\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.0.1\9ebf6cd580d67601fbf88fd007aab4703b19e4c2\core-3.0.1.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="9ebf6cd580d67601fbf88fd007aab4703b19e4c2">
+        <dex dex="C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\core-3.0.1-7c438b329f56f9a962022ad7c5a1171277d261ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\Andrya\.gradle\caches\modules-2\files-2.1\com.mobsandgeeks\android-saripaar\2.0.3\abd8da523222180f9531768c62509edf6cd9b02e\android-saripaar-2.0.3.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="abd8da523222180f9531768c62509edf6cd9b02e">
+        <dex dex="C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\android-saripaar-2.0.3-61d775779141da8ae65c5423b3e9c290f033a65c.jar" />
+    </item>
+
+</items>

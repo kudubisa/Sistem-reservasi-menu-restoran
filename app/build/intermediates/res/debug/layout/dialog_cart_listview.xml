@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:id="@+id/cartList"
+        tools:listitem="@layout/cart_custom_listview"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp">
+
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+            <TableRow>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edCodeVoucher"
+                    android:text="Pilih Voucher"
+                    android:editable="false"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#3BA790"
+                    android:id="@+id/btPilihVoucher"
+                    android:text="Gunakan Voucher"/>
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_default"
+                    android:drawableLeft="@android:drawable/ic_menu_revert"
+                    android:textColor="#3BA790"
+                    android:id="@+id/btKembali"
+                    android:text="Kembali" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_default"
+                    android:drawableLeft="@android:drawable/ic_menu_send"
+                    android:textColor="#3BA790"
+                    android:id="@+id/btKirPes"
+                    android:text="Kirim Pesanan"/>
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Andrya/AndroidStudioProjects/android-beacon-library-reference-master/app/src/main/res/layout/dialog_cart_listview.xml -->

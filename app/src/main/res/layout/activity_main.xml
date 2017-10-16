@@ -1,0 +1,152 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#51C3C4"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_default"
+                    android:drawableLeft="@android:drawable/ic_menu_today"
+                    android:textColor="#3BA790"
+                    android:id="@+id/btCart"
+                    android:text="Cart"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_default"
+                    android:drawableLeft="@android:drawable/ic_menu_sort_by_size"
+                    android:textColor="#3BA790"
+                    android:id="@+id/btBill"
+                    android:text="Bill" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+            <TableRow>
+                <Button
+                    android:background="@android:drawable/btn_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:textColor="#3BA790"
+                    android:textSize="20sp"
+                    android:id="@+id/btMakanan"
+                    android:layout_centerHorizontal="true"
+                    android:text="Aneka Makanan"
+                    android:layout_centerVertical="true"
+                    android:drawableLeft="@drawable/foodsmall" />
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:background="@android:drawable/btn_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:textColor="#3BA790"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/btMakanan"
+                    android:id="@+id/btMinuman"
+                    android:layout_centerHorizontal="true"
+                    android:drawableLeft="@drawable/drinksmall"
+                    android:text="Aneka Minuman" />
+
+
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:background="@android:drawable/btn_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:textColor="#3BA790"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/btMinuman"
+                    android:id="@+id/btDessert"
+                    android:layout_centerHorizontal="true"
+                    android:drawableLeft="@drawable/drinksmall"
+                    android:text="Deserts"
+                    android:visibility="gone"/>
+
+
+            </TableRow>
+            <TableRow>
+                <Button
+                    android:background="@android:drawable/btn_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:textColor="#3BA790"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/btDessert"
+                    android:id="@+id/btAppetizer"
+                    android:layout_centerHorizontal="true"
+                    android:drawableLeft="@drawable/drinksmall"
+                    android:text="Appetizers"
+                    android:visibility="gone"/>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cekStatus"
+        android:layout_below="@+id/btAppetizer"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+            <TableRow>
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/table_num"
+                    android:id="@+id/btSetMeja"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:text="No Mejamu : "/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/noMeja"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:text="-"/>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+</LinearLayout>

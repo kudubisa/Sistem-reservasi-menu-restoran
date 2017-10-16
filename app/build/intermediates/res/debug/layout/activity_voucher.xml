@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51C3C4">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/txtTitle"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:text="Judul" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imgVoucher"
+        android:src="@drawable/ic_launcher"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtDetail"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/white"
+        android:text="Detailjbdjkasj hjkdsha hh asdkh skjad jhsdak jakjd kjbsadkjasbdkjkj " />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TableRow>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_default"
+                    android:drawableLeft="@android:drawable/ic_menu_send"
+                    android:textColor="#3BA790"
+                    android:id="@+id/btAmbilVoucher"
+                    android:text="Ambil Voucher"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_default"
+                    android:drawableLeft="@android:drawable/ic_menu_revert"
+                    android:textColor="#3BA790"
+                    android:id="@+id/btLewatkan"
+                    android:text="Lewatkan" />
+
+
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Andrya/AndroidStudioProjects/android-beacon-library-reference-master/app/src/main/res/layout/activity_voucher.xml -->

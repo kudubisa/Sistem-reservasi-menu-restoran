@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#51C3C4"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+        android:text="Profile"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginBottom="50dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edEmail"
+            android:text=""
+            android:hint="Email"
+            android:editable="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvGantiPassword"
+            android:layout_below="@+id/edEmail"
+            android:clickable="true"
+            android:text="Ganti Password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edPassword"
+            android:layout_below="@id/tvGantiPassword"
+            android:hint="Password Lama"
+            android:lines="1"
+            android:password="true"
+            android:visibility="gone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edPasswordBaru"
+            android:layout_below="@id/edPassword"
+            android:hint="Password Baru"
+            android:lines="1"
+            android:password="true"
+            android:visibility="gone"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edPasswordBaru2"
+            android:layout_below="@id/edPasswordBaru"
+            android:hint="Konfirmasi Password Baru"
+            android:lines="1"
+            android:password="true"
+            android:visibility="gone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/edPasswordBaru2"
+            android:id="@+id/edNama"
+            android:hint="Nama Lengkap"
+            android:text=""/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/edNama"
+            android:id="@+id/edAlamat"
+            android:hint="Alamat"
+            android:text=""/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/edAlamat"
+            android:id="@+id/edNoTelp"
+            android:hint="No Telp"
+            android:text=""
+            android:inputType="number"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/btn_default"
+            android:drawableLeft="@android:drawable/ic_menu_send"
+            android:textColor="#3BA790"
+            android:id="@+id/btSaveProfile"
+            android:text="Simpan"
+            android:layout_below="@+id/edNoTelp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+    </RelativeLayout>
+
+
+</LinearLayout><!-- From: file:/C:/Users/Andrya/AndroidStudioProjects/android-beacon-library-reference-master/app/src/main/res/layout/fragment_profile.xml -->

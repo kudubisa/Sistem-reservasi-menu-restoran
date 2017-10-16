@@ -1,0 +1,9 @@
+C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\classes\debug
+C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-fb8c6cf7832bfe1c697a737e4c0e8941b6a5a8e1.jar
+C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\classes-3584e427acf2057f8fcd87b4649375620f801107.jar
+C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\classes-5c858b264182c4558be3c25ab1c2e6b5c9225626.jar
+C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\android-saripaar-2.0.3-61d775779141da8ae65c5423b3e9c290f033a65c.jar
+C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\classes-0dcb3466a24ad8e19414e23ead5c150f65cd18e0.jar
+C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-912058ab9e28a59409769f2ef041a69b579a5460.jar
+C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\core-3.0.1-7c438b329f56f9a962022ad7c5a1171277d261ee.jar
+C:\Users\Andrya\AndroidStudioProjects\android-beacon-library-reference-master\app\build\intermediates\pre-dexed\debug\classes-a41761dee39c42973517c60fddd80760e8fdc3bb.jar
